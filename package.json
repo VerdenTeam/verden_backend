@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "App para subir cursos online",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoPuyelli/verden_back.git"
+  },
+  "keywords": [
+    "verden"
+  ],
+  "author": "Thiago Puyelli <thiagopuyelli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThiagoPuyelli/verden_back/issues"
+  },
+  "homepage": "https://github.com/ThiagoPuyelli/verden_back#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
