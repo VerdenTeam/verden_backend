@@ -1,4 +1,4 @@
-# App Initialize
+# Backend - Plataforma de enseñanza 
 
 ## Contenido
 
