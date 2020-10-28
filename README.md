@@ -28,7 +28,7 @@ Ejemplos:
 firstName = 'Pepe'
 lastlName = 'Ruiz'
 
-function estaRegistrado() { ... }
+function updatePerson() { ... }
 ```
 Se utilizara el estilo UPPERCASE para los nombres de las variables globales
 
@@ -39,5 +39,7 @@ Para más detalles, consulte esta [guía](https://google.github.io/styleguide/js
 
 ### API Endpoints
 
-Utilizaremos swagger para ver los tipos de metodos que hay: 
+Utilizaremos swagger para ver los tipos de metodos que hay actualmente: 
+
+https://app.swaggerhub.com/apis-docs/ThiagoPuyelli/VerdenApi/1.0.0#/
 
