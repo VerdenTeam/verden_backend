@@ -1,7 +1,7 @@
 const { Router } = require("express");
 
 const router = require("express").Router();
-const ctrl = require("../controllers/coursesControllers");
+const ctrl = require("../../controllers/coursesControllers");
 
 router.post("/save", ctrl.saveCourse);
 router.get("/get", ctrl.getCourses);

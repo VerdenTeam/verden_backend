@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const ctrl = require("../controllers/partControllers");
+const ctrl = require("../../controllers/partControllers.js");
 
 router.post("/save/:courseID/:sectionID", ctrl.savePart);
 router.put("/update/:id", ctrl.updatePart);

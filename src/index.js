@@ -1,10 +1,11 @@
 const express = require("express");
 const morgan = require("morgan");
+const cors = require("cors");
 const app = express();
 
 // Config
 app.set("port", process.env.PORT || 3000);
-require("./database");
+require("../database");
 
 // Middlewares
 
@@ -12,11 +13,14 @@ app.use(morgan("dev"));
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 
-// Routes
+//initialize cors
+app.use(cors());
 
-app.use("/courses/", require("./routes/coursesRoutes"));
-app.use("/section/", require("./routes/sectionRoutes"));
-app.use("/part/", require("./routes/partRoutes"));
+
+// Routes
+app.use("/courses/", require("./api/routes//coursesRoutes"));
+app.use("/section/", require("./api/routes/sectionRoutes"));
+app.use("/part/", require("./api/routes/partRoutes"));
 
 // Starting to server
 
