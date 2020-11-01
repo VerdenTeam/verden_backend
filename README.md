@@ -38,21 +38,6 @@ Es deseable el uso del estilo PascalCase para los nombres de las clases.
 Para más detalles, consulte esta [guía](https://google.github.io/styleguide/jsguide.html)
 
 
-### API Endpoints
-
-Utilizaremos swagger para ver los tipos de metodos que hay actualmente: 
-
-https://app.swaggerhub.com/apis-docs/ThiagoPuyelli/VerdenApi/1.0.0#/
-
-
-Iniciar el servidor:
-
-* `node .`
-
-Para ejecutar los tests:
-
-* `npm test`
-
 ### Convenciones
 
 Se debe utilizar el idioma ingles para nombrar a las clases, variables y constantes, nombre de funciones, etc. Los nombres de las clases (javascript)
